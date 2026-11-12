@@ -1,0 +1,20 @@
+{
+  "data_addr": ["127.0.0.1", 51001],
+  "control_addr": ["127.0.0.1", 51002],
+  "refetch_interval": 0.3,
+  "refetch_max_attempts": 4,
+  "sweep_interval": 0.5,
+  "retransmit_wait": 0.2,
+  "devices": {
+    "bench-a": {
+      "address": ["127.0.0.1", 51010],
+      "retransmit_addr": ["127.0.0.1", 51010],
+      "retention_groups": 16,
+      "max_reorder_span": 32,
+      "max_groups": 8,
+      "retain_finished": 64,
+      "group_ttl": 6.0,
+      "max_count": 64
+    }
+  }
+}
