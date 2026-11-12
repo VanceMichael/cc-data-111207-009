@@ -1,0 +1,13 @@
+{
+  "device": "bench-a",
+  "boot": "boot-7",
+  "sequence": 65535,
+  "parts": [
+    "温度,",
+    "18.2\n",
+    "压力,2.3\n"
+  ],
+  "port": 0,
+  "retention_groups": 16,
+  "max_reorder_span": 32
+}
